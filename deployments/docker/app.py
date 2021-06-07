@@ -1,14 +1,18 @@
 from flask import Flask,  jsonify 
 import os 
 app = Flask(__name__)
+
+
 @app.route('/')
 def hello_world():
     return jsonify({
         'message': 'hello world',
         'environment': os.environ.get('ENVIRONMENT'),
-        'owner': 'yuriybat'. 
+        'owner': 'yuriybat',
         'namespace': os.environ.get('NAMESPACE')
     })
+
+
 @app.route('/soon')
 def comming_soon():
     return jsonify({
