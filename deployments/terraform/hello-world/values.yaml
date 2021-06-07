@@ -5,7 +5,7 @@
 replicaCount: 10
 
 image:
-  repository: docker.ybtechx.com/hello-world-stage:7ea7fbe
+  repository: docker.ybtechx.com/hello-world-stage:be3a198
   ## tag: stable
   pullPolicy: IfNotPresent
 
