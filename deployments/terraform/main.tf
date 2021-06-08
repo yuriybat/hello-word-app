@@ -37,6 +37,6 @@ variable "google_domain_name" {
 }
 
 variable "deployment_image" {
-    default = "docker.ybtechx.com/hello-world-stage:d32815e"
+    default = "docker.ybtechx.com/hello-world-dev-feature:c8d3c62"
     description = "- (Optional) The docker image of the deployment."
 }
