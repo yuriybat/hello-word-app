@@ -14,7 +14,7 @@ def hello_world():
 
 
 @app.route('/yuriybat')
-def comming_soon():
+def yuriybat():
     return jsonify({
         'message': 'This is Yuriy B page!!'
     })
